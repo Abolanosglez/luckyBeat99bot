@@ -477,8 +477,8 @@ def onmessage(update,bot:ObigramClient):
 
         if '/start' in msgText:
             start_msg = 'Bot          : TGUploaderPro v7.0\n'
-            start_msg+= 'Desarrollador: @rockstar984\n'
-            start_msg+= 'Api          : https://github.com/rockstarcuba\n'
+            start_msg+= 'Desarrollador: @abolanos\n'
+            start_msg+= 'Api          : https://github.com/'
             start_msg+= 'Uso          :Envia Enlaces De Descarga y Archivos Para Procesar (Configure Antes De Empezar , Vea El /tutorial)\n'
             bot.editMessageText(message,start_msg)
         elif '/files' == msgText and user_info['cloudtype']=='moodle':
